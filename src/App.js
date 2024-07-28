@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import MonHeader from './components/MonHeader';
 import MonFooter from './components/MonFooter';
+import MonBody from './components/MonBody';
 
 function App() {
 
@@ -12,10 +13,11 @@ function App() {
   return (
     <div className="App">
       <MonHeader/>
+      <MonBody/>
       <MonFooter 
-        nom = {userName} 
-        prenom = {userLastName} 
-        session = {sessionNr}/>
+        nom={userName} 
+        prenom={userLastName} 
+        session={sessionNr}/>
     </div>
   );
 }
