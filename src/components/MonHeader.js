@@ -24,7 +24,7 @@ function MonHeader() {
 
     return (
         <div>
-            <h1>On est <b>{formattedDate}</b>, il est <b>{formattedTime}</b></h1>
+            <h2>On est <b>{formattedDate}</b>, il est <b>{formattedTime}</b></h2>
         </div>
     );
 }

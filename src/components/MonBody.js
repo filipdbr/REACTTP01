@@ -59,12 +59,12 @@ export default class MonBody extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="monbody">
                 <h1>{this.formatTime(this.state.chrono)} </h1>
                 {this.AffButton('Start', this.onStart)}<br />
                 {this.AffButton('Stop', this.onStop)}<br />
                 {this.AffButton('Pause', this.onPause)}<br />
-                {this.AffButton('ReStart', this.onReStart)}<br />
+                {this.AffButton('Restart', this.onReStart)}<br />
             </div>
         );
     }
